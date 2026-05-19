@@ -3,10 +3,10 @@ import { Heart, Shield, Award, Globe, CheckCircle, ArrowRight } from 'lucide-rea
 import Logo from '../components/Logo';
 
 const team = [
-  { name: 'Muhammad Nadeem', img: '/src/images/Students/MuhammadNadeem.jpg' },
-  { name: 'Aftab Hussain', img: '/src/images/Students/AftabHussain.jpg' },
-  { name: 'Hafsa Aslam', img: '/src/images/Students/HafsaAslam.jpg' },
-  { name: 'Dua Zainab Zahra', img: '/src/images/Students/DuaZainabZahra.jpg' },
+  { name: 'Muhammad Nadeem', img: '/images/Students/MuhammadNadeem.jpg' },
+  { name: 'Aftab Hussain', img: '/images/Students/AftabHussain.jpg' },
+  { name: 'Hafsa Aslam', img: '/images/Students/HafsaAslam.jpg' },
+  { name: 'Dua Zainab Zahra', img: '/images/Students/DuaZainabZahra.jpg' },
 ];
 
 const values = [

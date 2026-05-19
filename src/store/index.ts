@@ -244,7 +244,7 @@ const mockDoctors: Doctor[] = [
     verified: true, available: true, patientsAccepted: 8, email: 'dr.fatima@shaukatkhanum.org',
     phone: '+92-42-3571-7000', bio: 'Board-certified oncologist with 15 years of experience in cancer treatment and chemotherapy.',
     location: 'Lahore, Pakistan', documents: [], createdAt: '2024-01-05',
-    imageUrl: '/src/images/Doctors/Dr.Fatima.jpg'
+    imageUrl: '/images/Doctors/Dr.Fatima.jpg'
   },
   {
     id: 'd2', userId: 'u2', name: 'Dr. Mehwish', specialization: 'Pediatrics',
@@ -252,7 +252,7 @@ const mockDoctors: Doctor[] = [
     verified: true, available: true, patientsAccepted: 5, email: 'dr.mehwish@childrenshospital.org',
     phone: '+92-42-9923-1000', bio: 'Pediatric specialist with expertise in childhood diseases and neonatal care.',
     location: 'Lahore, Pakistan', documents: [], createdAt: '2024-01-08',
-    imageUrl: '/src/images/Doctors/Dr.Mehwish.jpg'
+    imageUrl: '/images/Doctors/Dr.Mehwish.jpg'
   },
   {
     id: 'd3', userId: 'u2', name: 'Dr. Azam', specialization: 'Cardiology',
@@ -260,7 +260,7 @@ const mockDoctors: Doctor[] = [
     verified: true, available: false, patientsAccepted: 12, email: 'dr.azam@pic.gov.pk',
     phone: '+92-42-9920-3051', bio: 'Professor and interventional cardiologist with over two decades of expertise in heart surgeries.',
     location: 'Lahore, Pakistan', documents: [], createdAt: '2024-01-12',
-    imageUrl: '/src/images/Doctors/Prof.Dr.Azim.jpg'
+    imageUrl: '/images/Doctors/Prof.Dr.Azim.jpg'
   },
   {
     id: 'd4', userId: 'u2', name: 'Dr. Zeshan Ali', specialization: 'Neurology',
@@ -268,7 +268,7 @@ const mockDoctors: Doctor[] = [
     verified: true, available: true, patientsAccepted: 6, email: 'dr.zeshan@serviceshospital.org',
     phone: '+92-42-9921-1600', bio: 'Neurologist specializing in stroke management, epilepsy, and neurological rehabilitation.',
     location: 'Lahore, Pakistan', documents: [], createdAt: '2024-01-20',
-    imageUrl: '/src/images/Doctors/ZeshanAli.jpg'
+    imageUrl: '/images/Doctors/ZeshanAli.jpg'
   },
 ];
 
