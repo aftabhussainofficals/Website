@@ -25,12 +25,12 @@ const heroSlides = [
 ];
 
 const galleryImages = [
-  { url: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80', label: 'Patient Recovery' },
+  { url: '/images/gallary/PatientsWard.webp', label: 'Patients Ward' },
+  { url: '/images/gallary/PatientsWard2.jpg', label: 'Patients Ward' },
   { url: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80', label: 'Medical Team' },
-  { url: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80', label: 'Doctor Consultation' },
-  { url: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80', label: 'Patient Care' },
-  { url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80', label: 'Pediatric Care' },
+  { url: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80', label: 'Patient Recovery' },
   { url: 'https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=600&q=80', label: 'Surgical Team' },
+  { url: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80', label: 'Doctor Consultation' },
 ];
 
 export default function Home() {
