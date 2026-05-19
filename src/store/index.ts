@@ -141,7 +141,7 @@ const mockUsers: User[] = [
 const mockPatients: Patient[] = [
   {
     id: 'p1', userId: 'u3', name: 'Ali Hussain', age: 13, gender: 'Male',
-    condition: 'Acute Medical Condition', urgency: 'critical', requiredFunds: 150000, collectedFunds: 42000,
+    condition: 'Acute Medical Condition', urgency: 'critical', requiredFunds: 150000, collectedFunds: 8200,
     incomeLevel: 8000, verified: true, eligible: true, assignedDoctor: 'd2', status: 'active',
     documents: [], description: 'Ali Hussain is a 13-year-old boy from Kharian admitted for urgent medical treatment. His family are daily-wage earners who cannot afford his hospital bills and medication.',
     location: 'Msh- Ram Bagh Tehsil Kharian', phone: '', email: '',
@@ -149,7 +149,7 @@ const mockPatients: Patient[] = [
   },
   {
     id: 'p2', userId: 'u3', name: 'Zulfayaz', age: 55, gender: 'Male',
-    condition: 'Chronic Illness', urgency: 'high', requiredFunds: 200000, collectedFunds: 75000,
+    condition: 'Chronic Illness', urgency: 'high', requiredFunds: 120000, collectedFunds: 75000,
     incomeLevel: 10000, verified: true, eligible: true, status: 'active',
     documents: [], description: 'Zulfayaz is battling a serious chronic illness and requires ongoing medical care. He is the sole breadwinner of his family with no savings left.',
     location: 'Mohiuddin Park Khana Khana, Lahore', phone: '0306-16540662', email: '',
@@ -294,28 +294,28 @@ const mockAppeals: Appeal[] = [
     id: 'a1', patientId: 'p1', patientName: 'Ali Hussain', title: 'Help Ali Hussain Recover',
     story: 'Ali Hussain is a 13-year-old boy from Kharian who has been admitted for urgent medical treatment. His family, daily-wage earners, cannot afford the cost of his care. Your donation will help cover his hospital bills and medication.',
     urgency: 'critical', targetAmount: 150000, raisedAmount: 42000, condition: 'Acute Medical Condition',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=800', active: true,
     createdAt: '2026-05-01', deadline: '2026-06-30'
   },
   {
     id: 'a2', patientId: 'p2', patientName: 'Zulfayaz', title: "Support Zulfayaz's Treatment",
     story: 'Zulfayaz, 55, from Lahore is battling a serious illness and requires ongoing medical care. He is the sole breadwinner of his family and has no savings left. Every rupee donated goes directly to his treatment.',
     urgency: 'high', targetAmount: 200000, raisedAmount: 75000, condition: 'Chronic Illness',
-    imageUrl: 'https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800', active: true,
     createdAt: '2026-05-02', deadline: '2026-07-15'
   },
   {
     id: 'a3', patientId: 'p3', patientName: 'Gulshan Hussain', title: 'Gulshan Needs Neurological Care',
     story: 'Gulshan Hussain, 51, an auto driver from Lahore, suffered a neurological episode that has left him unable to work. His wife and children depend entirely on him. He urgently needs specialist treatment at a neurology centre.',
     urgency: 'critical', targetAmount: 300000, raisedAmount: 110000, condition: 'Neurological Disorder',
-    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800', active: true,
     createdAt: '2026-05-03', deadline: '2026-06-20'
   },
   {
     id: 'a4', patientId: 'p4', patientName: 'Nadia Bibi', title: "Nadia Bibi's Heart Surgery Fund",
     story: 'Nadia Bibi, 42, a housewife from Shahdara Lahore, has been diagnosed with a serious cardiac condition. Her husband is a daily-wage worker and cannot afford the surgery. Help save a mother of four.',
     urgency: 'critical', targetAmount: 450000, raisedAmount: 180000, condition: 'Cardiac Disease',
-    imageUrl: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800', active: true,
     createdAt: '2026-05-04', deadline: '2026-06-15'
   },
   {
@@ -329,21 +329,21 @@ const mockAppeals: Appeal[] = [
     id: 'a6', patientId: 'p6', patientName: 'Hira Fatima', title: 'Save Little Hira – Only 5 Years Old',
     story: 'Hira Fatima is only 5 years old and has been admitted to the pediatric ward in Faisalabad with a critical condition. Her parents are daily-wage workers who cannot afford the cost of her treatment. Please help save this little girl.',
     urgency: 'critical', targetAmount: 180000, raisedAmount: 95000, condition: 'Pediatric Critical Care',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800', active: true,
     createdAt: '2026-05-06', deadline: '2026-06-10'
   },
   {
     id: 'a7', patientId: 'p7', patientName: 'Bashir Ahmed', title: "Bashir Ahmed's Cancer Treatment",
     story: 'Bashir Ahmed, 60, a retired man from Rawalpindi, has been diagnosed with cancer. His pension is not enough to cover chemotherapy. His children are trying their best but need community support to save their father.',
     urgency: 'high', targetAmount: 500000, raisedAmount: 130000, condition: 'Cancer',
-    imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=800', active: true,
     createdAt: '2026-05-07', deadline: '2026-08-01'
   },
   {
     id: 'a8', patientId: 'p8', patientName: 'Sana Akhtar', title: 'Sana Needs Kidney Dialysis',
     story: 'Sana Akhtar, 29, a teacher from Multan, has been diagnosed with kidney failure and requires regular dialysis. She lives alone and her salary barely covers rent. Help her continue her treatment and her life.',
     urgency: 'high', targetAmount: 360000, raisedAmount: 88000, condition: 'Kidney Failure',
-    imageUrl: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800', active: true,
+    imageUrl: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800', active: true,
     createdAt: '2026-05-08', deadline: '2026-07-30'
   },
 ];
@@ -527,7 +527,7 @@ export const useStore = create<AppState>()(
       },
     }),
     {
-      name: 'meri-hope-store-v4',
+      name: 'meri-hope-store-v5',
       partialize: (state) => ({
         user: state.user,
         patients: state.patients,
