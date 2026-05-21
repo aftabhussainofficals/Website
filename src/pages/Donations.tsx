@@ -9,9 +9,9 @@ const PRESET_AMOUNTS = [100, 200, 500, 1000, 2000, 5000];
 
 // Real payment accounts
 const PAYMENT_ACCOUNTS = [
-  { name: 'JazzCash', number: '0300-0000000', label: 'JazzCash / RAAST' },
-  { name: 'Easypaisa', number: '0300-0000000', label: 'Easypaisa' },
-  { name: 'Bank Transfer', number: 'PK00XXXX0000000000000000', label: 'Bank (IBAN)' },
+  { name: 'JazzCash', number: '+92 312 8808514', label: 'JazzCash / RAAST' },
+  { name: 'Easypaisa', number: '0312 8808514', label: 'Easypaisa' },
+  { name: 'Bank Transfer', number: 'PK11MEZN0011490113694167', label: 'MEZAN Bank (IBAN)' },
 ];
 
 export default function Donations() {
