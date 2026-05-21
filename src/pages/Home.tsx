@@ -25,12 +25,13 @@ const heroSlides = [
 ];
 
 const galleryImages = [
-  { url: '/images/gallary/PatientsWard.webp', label: 'Patients Ward' },
-  { url: '/images/gallary/PatientsWard2.jpg', label: 'Patients Ward' },
-  { url: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80', label: 'Medical Team' },
-  { url: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80', label: 'Patient Recovery' },
-  { url: 'https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=600&q=80', label: 'Surgical Team' },
-  { url: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80', label: 'Doctor Consultation' },
+  { url: '/images/gallary/IMG-20260515-WA0031.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260515-WA0056.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260515-WA0064.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260515-WA0066.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260515-WA0081.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260516-WA0049.jpg', label: 'Our Work' },
+  { url: '/images/gallary/IMG-20260519-WA0011.jpg', label: 'Our Work' },
 ];
 
 export default function Home() {
@@ -173,7 +174,7 @@ export default function Home() {
           <p className="text-blue-600 font-medium text-sm uppercase tracking-wider mb-2">Gallery</p>
           <h2 className="text-3xl font-bold text-gray-900">Moments of hope &amp; healing</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-2 px-4 sm:px-6 lg:px-8">
           {galleryImages.map((img, i) => (
             <div key={i} className="relative h-48 overflow-hidden rounded-xl group">
               <img src={img.url} alt={img.label} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
